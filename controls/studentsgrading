@@ -1,0 +1,17 @@
+#GRADE STUDENTS MARKS
+
+#use the following grading system to grade students marks 70 and above = A, 60-69 = B, 50-59 = C, 40-49 = D, below 40 = Fail
+
+marks = int(input("Enter the marks: "))
+if marks < 0 or marks > 100:
+    print("Invalid marks")
+elif marks >= 70:
+    print("Grade = A")
+elif marks >= 60:
+    print("Grade = B")
+elif marks >= 50:
+    print("Grade = C")
+elif marks >= 40:
+    print("Grade = D")
+else:
+    print("Fail")

@@ -1,0 +1,7 @@
+# python program that checks if someone is eligible to vote or no
+
+age = int(input("Enter your age: "))
+if age >= 18:
+     print("You are eligible to vote")
+else: 
+     print("You are underage thus cannot vote")
